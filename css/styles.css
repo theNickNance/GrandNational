@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+/* NAVBAR */
+#logo {
+	font-size: 30px;
+	line-height: 50px;
+	float: left;
+	color: #999;
+	font-family: 'Alegreya', serif;
+	padding-left: 10px;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#logo a:visited {
+	color: #999;
+}
+
+#logo a:hover {
+	color: #f1469d;
+}
+
+#navbar {
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 2;
+/*	overflow: auto;*/
+}
+
+
+a.nav-active {
+    color: black;
+   	/*text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;*/
+}
+
+nav {
+	text-align: center;
+}
+nav ul {
+	float: left;
+	line-height: 50px;
+	padding-left: 5%;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	font-size: 16px;
+	padding: 10px;
+}
+nav a {
+	text-decoration: none;
+	color: #999;
+	font-family: 'Alegreya', serif;
+}
+nav a:hover {
+	color: #f1469d;
+}
+
+#social {
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 15px;
+	padding-right: 10px;
+	float: right;
+}
+
+.fa {
+	color: #999;
+}
+
+#fa1:hover, .fa:focus{
+	color: #ff8800;
+}
+#fa2:hover, .fa:focus{
+	color: #1dcaff;
+}
+
+#fa3:hover, .fa:focus{
+	color: #3b5998;
+}
+#fa4:hover, .fa:focus{
+	color: #3f729b;
+}
+/* END NAVBAR */
+
+/* HOME */
+
+
+#home {
+	background: url("../img/gncity.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	height: 100%;
+}
+
+.scContainer {
+	margin: 0 auto;
+	padding: 120px 0px 0px 10px;
+	clear: both;
+}
+
+.scPlayer {
+	position: relative;
+	margin: auto;
+	max-width: 310px;
+	opacity: .7;
+	float: left;
+}
+
+.scPlayer:hover {
+	opacity: 1;
+}
+
+/* END HOME */
+
+
+/* PROJECTS */
+#projects {
+	background-image: url("../img/rapping.jpg");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	min-height: 625px;
+}
+
+.theContainer {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+.projectContainer {
+	min-height: 330px;
+	margin: 0 auto;
+	max-width: 330px;
+	display: inline-block;
+	padding: 100px 20px;
+}
+
+@media screen and (max-width:830px) {
+	.projectContainer {
+		padding: 20px 20px;
+	}	
+
+}
+
+.albumcover {
+	border-radius: 25px;
+}
+
+#pf {
+  position: relative;
+  height: 319px;
+  width: 329px;
+  margin:0 auto;
+  z-index: 1;
+}
+
+#pf a img {
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+}
+
+#pf img.top:hover {
+  opacity:0;
+}
+
+/* END PROJECTS */
+
+
+
+/* START SHOWS */
+
+#shows {
+	background-image: url("../img/showpic.jpg");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 625px;
+}
+
+.showContainer {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	background-color: rgba(166,166,166, 0.7);
+	top: 20px;
+}
+
+.showText {
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	text-align: center;
+	color: white;
+	padding-top: 120px;
+}
+
+/* END SHOWS */
+
+
+
+/* START VISUALS */
+
+#visuals {
+	background-image: url("../img/smokecar.jpg");
+	background-position: center bottom;
+	background-color: white;
+    background-size: 50% 50%;
+	background-repeat: repeat-x;
+	width: 100%;
+	min-height: 745px;
+	/*625/740 px min*/
+}
+
+.video-container {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	height: 500px;
+}
+
+.flex-video {
+	height: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+    position: relative;
+    top: 60px;
+}
+	
+
+/* END VISUALS */
+

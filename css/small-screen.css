@@ -1,0 +1,122 @@
+
+
+@media screen and (max-width:460px) {
+
+/* NAVBAR */
+#logo {
+	width: 135px;
+	font-size: 15px;
+	padding-left: 0;
+}
+
+#navbar {
+	height: 55px;
+}
+
+nav {
+
+}
+nav ul {
+	width: 175px;
+	float: right;
+	overflow: auto;
+	margin-top: 0px;
+	background-color: ;
+/*	line-height: 50px;*/
+}
+
+
+nav li {
+	display: inline;
+	padding: 0;
+}
+nav a {
+	color: ;
+	text-align: center;
+	margin: 0;
+	padding: 3px;
+}
+nav a:hover {
+	color: #f1469d;
+}
+
+#social {
+	width: 170px;
+	float: right;
+	overflow: auto;
+}
+
+/* END NAVBAR */
+
+/* START HOME */
+
+.scContainer {
+	text-align: center;
+	width: 80%;
+}
+
+.scPlayer {
+	float: none;
+	height: 300px;
+}
+
+/* END HOME */
+
+
+/* START PROJECTS */
+.theContainer {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	overflow: hidden;
+}
+
+.projectContainer {
+	min-height: 320px;
+	margin: 0 auto;
+	max-width: 310px;
+	display: flex;
+	padding: 20px 10px;
+	overflow: hidden;
+}
+
+#pf {
+   	position: none;
+	height: 280px;
+	width: 300px;
+	margin:0 auto;
+	z-index: 1;
+}
+
+#pf a img {
+	position: ;
+	left:0;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	z-index: 1;
+}
+
+#pf img.top:hover {
+  	opacity: 1;
+}
+
+.bottom {
+	position: ;
+}
+
+
+/* END PROJECTS */
+
+
+
+/* START VISUALS */
+.main-vid {
+	height: 180px;
+	width: 300px;
+}
+
+
+/* END VISUALS */
+}

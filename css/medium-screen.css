@@ -1,0 +1,72 @@
+@media screen and (max-width:768px) {
+
+
+/* NAVBAR */
+#logo {
+	/*width: 40%;*/
+	/*text-align: center;*/
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+#navbar {
+	height: 55px;
+}
+
+nav {
+
+}
+nav ul {
+	float: right;
+	padding-left: 0;
+	padding-right: 10px;
+	margin-top: 0;
+	background-color: ;
+	line-height: 20px;
+	font-size: 16px;
+	width: 50%;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+}
+nav a {
+	color: ;
+	padding-left: 0px;
+}
+nav a:hover {
+}
+
+#social {
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 10px;
+	padding-top: 0px;
+	background-color: ;
+	float: right;
+	padding-left: 0px;
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+}
+/* END NAVBAR */
+
+/* HOME */
+
+/* END HOME */
+
+
+/* START PROJECTS*/
+
+.projectContainer {
+	padding: 20px 10px;
+}
+
+
+/* END PROJECTS */
+
+
+
+
+} 
