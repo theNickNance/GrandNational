@@ -46,7 +46,6 @@ html {
 
 a.nav-active {
     color: black;
-   	/*text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;*/
 }
 
 nav {
@@ -73,7 +72,7 @@ nav a:hover {
 }
 
 #social {
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 2px;
 	padding-top: 15px;
 	padding-right: 10px;
@@ -231,7 +230,7 @@ nav a:hover {
 	background-image: url("../img/smokecar.jpg");
 	background-position: center bottom;
 	background-color: white;
-    background-size: 50% 50%;
+    background-size: contain;
 	background-repeat: repeat-x;
 	width: 100%;
 	min-height: 745px;
@@ -255,4 +254,36 @@ nav a:hover {
 	
 
 /* END VISUALS */
+
+
+/* START FOOTER */
+
+.gn-email {
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+.al-email {
+	float: right;
+	padding: 10px 10px 0 0;
+}
+
+footer {
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #999;
+}
+
+footer a:hover {
+	color: white;
+}
+
+/* END FOOTER */
 

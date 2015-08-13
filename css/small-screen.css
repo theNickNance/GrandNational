@@ -19,7 +19,6 @@ nav {
 nav ul {
 	width: 175px;
 	float: right;
-	overflow: auto;
 	margin-top: 0px;
 	background-color: ;
 /*	line-height: 50px;*/
@@ -119,4 +118,12 @@ nav a:hover {
 
 
 /* END VISUALS */
+
+/* START FOOTER */
+footer {
+	font-size: 12px;
+}
+/* END FOOTER */
+
+
 }
